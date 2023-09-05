@@ -10,6 +10,7 @@ $(document).keydown(function(){
     }
 })
 
+
 $(".btn").click(function(){
     let userChosenColor = this.id;
     userClickedPattern.push(userChosenColor);
